@@ -1,0 +1,11 @@
+{
+  "extends": "tslint-config-standard",
+  "rules": {
+    "ordered-imports": true,
+    "prefer-for-of": false,
+    "cyclomatic-complexity": true,
+    "quotemark": [true, "double", "avoid-escape", "jsx-single"],
+    "space-before-function-paren": [false, "always"],
+    "ter-indent": [false, 2]
+  }
+}
